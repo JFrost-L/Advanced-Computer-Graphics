@@ -1,0 +1,11 @@
+#version 400 core
+
+//vertexShader는 normalized 좌표계에서 좌표를 정하는 것
+
+in vec3 vtxPosition;
+
+void main()
+{	
+	gl_Position = vec4 (vtxPosition, 1);
+	gl_PointSize = 7.0f;
+}
