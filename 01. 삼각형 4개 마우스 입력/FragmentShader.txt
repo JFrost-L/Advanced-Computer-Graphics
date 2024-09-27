@@ -1,0 +1,9 @@
+#version 400 core
+
+//in vec3 vertexColor;
+out vec3 color;
+//FragmentShader는 vertexShader에서 정해진 점들에 색을 더하는 것
+void main()
+{
+	color = vec3(1, 0 ,0);
+}
